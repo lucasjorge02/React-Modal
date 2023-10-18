@@ -1,0 +1,131 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 99, 99, 0.664);
+}
+
+.modal-content{
+    color: #fff;
+    border-radius: 20px;
+    background: #121526;
+    width: 85%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-content{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 55%;
+    height: 80%;
+}
+
+.login-content>p{
+    font-size: 30px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.logo-container>p{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.form-content{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content>input{
+    border-radius: 20px;
+    border: 1px solid #FFF; 
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+}
+
+.form-content>label{
+    margin-bottom: 10px;
+}
+
+.form-content>a{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.link-right-button{
+    align-self: flex-end;
+}
+
+.button-form{
+    margin-top: 39px;
+    border-radius: 20px;
+    color: #121526;
+    border: none;
+    background: #F070FF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input-margin{
+    margin-bottom: 27px;
+}
+
+.img-container{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/gato.png');
+    border-radius: 0px 20px 20px 0px;
+}
+
+.linear-gradient{
+    background: linear-gradient(90deg, #121526 0%, rgba(18, 21, 38, 0.00) 46.13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.linear-gradient>p{
+    align-self: center;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.close-icon{
+    margin: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
